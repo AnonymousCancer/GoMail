@@ -2,86 +2,148 @@ body {
   padding: 3px;
   background-color: none;
 }
+#cac {
+  position:relative;
+  top:-10px;
+  color:white;
+  font-family: "Calibri light";
+  font-size: 40px;
 
-#NewM {
-  color: #B43004;
+}
+#button {
+  font-weight: bold;
+  color:#b43004;
+  background:white;
+border: none;
+padding:10px;
+font-family: "Calibri light";
+font-size: 15px;
+}
+#button:hover{
+  background: lightgrey;
+}
+#form1{
+  font-family: "Calibri light";
   font-size: 20px;
+    padding: 10px;
+    font-weight:bold;
+}
+#home{
+
+    color: white;
+    font-size: 30px;
+    font-family: "Calibri light";
+    padding: 10px;
+    border-bottom: solid white;
+  }
+#NewM {
+  color: white;
+  font-size: 24px;
   font-family: "Calibri light";
   padding: 10px;
+  border-bottom: solid white;
+  border-left: solid white;
+  border-right: solid white;
 }
 #NewM:hover {
-  background:  #20a8e8;
-}
-#inbox{
-    color: #20a8e8;
-    font-size: 24px;
-    font-family: "Calibri light";
-    background-color: #c8c8c8 ;
-    padding: 10px;
-    text-align: center;
+  background: white;
+  color: black;
 }
 #inbox:hover {
-  background: #B43004;
+  background: white;
+  color: black;
+}
+#outbox:hover {
+  background: white;
+  color: black;
+}
+#contact:hover {
+  background: white;
+  color: black;
+}
+#inbox {
+    color: white;
+    font-size: 24px;
+    font-family: "Calibri light";
+    padding: 10px;
+    border-bottom: solid white;
+    border-left: solid white;
+    border-right: solid white;
 }
 
 #outbox {
-    color: #B43004;
+    color: white;
     font-size: 24px;
     font-family: "Calibri light";
     padding: 10px;
-}
-#outbox:hover {
-  background:  #20a8e8;
+    border-bottom: solid white;
+    border-left: solid white;
+    border-right: solid white;
 }
 
 #contact {
-    color: #20a8e8;
+    color: white;
     font-size: 24px;
     font-family: "Calibri light";
-    background-color: #c8c8c8 ;
+    border-bottom: solid white;
+    border-left: solid white;
+      border-right: solid white;
     padding: 10px;
-}
-#contact:hover {
-  background: #B43004;
+
 }
 
 #t00 {
 position:fixed;
-width:300px;
-top: 200px;
-left: 10px;
-  background-color: #d8d8d8;
+width:18%;
+top: 220px;
+
+  background-color:none;
   color: black;
   text-align: center;
-  border: solid;
+  border: none;
+
+}
+#contactList {
+  font-family: "Calibri light";
+  border: none;
+  border-spacing: 0px;
+  font-size: 18px;
+  text-align: left;
+  width:100%;
 }
 #header {
   border: none;
-  background-color:white;
   color: black;
   text-align: center;
-  padding: 10px;
-  font-size: 5px;
-}
+  position: fixed;
+  top:0px;
+  left:43%;
 
+}
+#th1 {
+padding: 7px;
+border-style: groove;
+border-width: thin;
+
+}
 #mail {
   font-family: "Calibri light";
   padding: 10px;
   border: none;
+  border-spacing: 0px;
   font-size: 18px;
   position: relative;
-  float:right;
-  left:10px;
-  top: 10px;
+  float:center;
+  left:315px;
+  top: 195px;
+  width:74.6%;
   text-align: left;
 }
 #message {
 
 }
-#th1 {
-  border-bottom: solid;
+#date{
+
 }
-
-#th2 {
-
+#msg{
 }

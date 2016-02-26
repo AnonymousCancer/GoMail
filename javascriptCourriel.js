@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $("#inbox").click(inboxRefresh=function(){
     $("#mail").html("");
-    $("#mail").append("<tr id=message><th id=th1>FROM</th><th id=th1>DATE</th><th id=th1 colspan=2>MESSAGE</th></tr>");
+  $("#mail").append("<tr id=message><th id=th1>FROM</th><th id=th1>DATE</th><th id=th1 colspan=2>MESSAGE</th></tr>");
     var keys=Object.keys(etat.yp[0]);
 
     for(var i=0;i<etat.inbox.length;i++){
@@ -22,7 +22,7 @@ $(document).ready(function(){
   });
   $("#outbox").click(outboxRefresh =function(){
     $("#mail").html("");
-    $("#mail").append("<tr id=message><th id=th1>TO</th><th id=th1>DATE</th><th id=th1>MESSAGE</th></tr>");
+    $("#mail").append("<tr id=message><th id=th1>TO</th><th id=th1>DATE</th><th id=th1 colspan=2>MESSAGE</th></tr>");
     var keys=Object.keys(etat.yp[0]);
 
     for(var i=0;i<etat.outbox.length;i++){
@@ -42,19 +42,19 @@ $(document).ready(function(){
   $("#contact").click(contactRefresh=function(){
     $("#mail").html("");
     var keys=Object.keys(etat.yp[0]);
-    $("#mail").append("<table id=contactList><tr id=message><th>ADDRESSE</th><th>NOM DE CONTACT</th></tr>");
+    $("#mail").append("<table id='contactList'><tr id=message><th id=th1>ADDRESSE</th><th id=th1 colspan=2>NOM DE CONTACT</th></tr>");
     for(var i=0;i<keys.length;i++){
-      $("#mail").append("<tr id=message"+i+"><th>"+keys[i]+"</th><th>"+etat.yp[0][keys[i]]["name"]+"</th><th><input type='button' name='submit' value='delete' id=\"button\" onclick='removeCont("+i+")'></th></tr>");
+      $("#mail").append("<tr id=message"+i+"><th>"+keys[i]+"</th><th>"+etat.yp[0][keys[i]]["name"]+"</th><th><input type='button' name='submit' value='remove' id=\"button\" onclick='removeCont("+i+")'></th></tr>");
       }
-      $("#mail").append("</table><br><table id='ajout'><th><input type='button' name='submit' value='add contact' id=\"addCont\" onclick='ajoutCont()'></th></tr>");
+      $("#mail").append("</table><br><table id='ajout'><th><input type='button' name='submit' value='add contact' id=\"button\" onclick='ajoutCont()'></th></tr>");
   });
   $("#NewM").click(function(){
-    $("#mail").html("<tr id=\"allo1\"><td><form>Send to : <input type=\"text\" id=\"ContactName\"></form><br><textarea placeholder=\"Entrez votre message\" rows=\"10\" cols=\"50\" id=\"messageInput\"></textarea><br><input type='button' name='submit' value='send' id=\"button\" onclick='retrieve(\"ContactName\", \"messageInput\")'></td></tr>");
+    $("#mail").html("<tr id=\"allo1\"><td><form id='form1'>Send to : <input type=\"text\" id=\"ContactName\"></form><br><textarea placeholder=\"Entrez votre message\" rows=\"10\" cols=\"50\" id=\"messageInput\"></textarea><br><input type='button' name='submit' value='send' id=\"button\" onclick='retrieve(\"ContactName\", \"messageInput\")'></td></tr>");
   });
 });
 function retrieve(cont,msg) {
   if(document.getElementById(cont).value==""){
-    window.alert("Tu envoies le message a personne!")
+    window.alert("Please enter contact information.")
   }
   else{
   var d = new Date();
@@ -124,7 +124,6 @@ function delMsgOutAll(){
   etat.outbox.splice(0,etat.outbox.length);
   outboxRefresh();
 }
-
 var etat = {
   "inbox": [
     {
