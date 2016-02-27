@@ -1,9 +1,9 @@
 body {
-  background: url(image/background.jpg);
+  background: url(image/background.png);
   padding: 3px;
   background-color: none;
-  background-size: 100%;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 #cac {
   position:relative;
@@ -32,6 +32,7 @@ font-size: 15px;
     font-weight:bold;
 }
 #home{
+
     color: white;
     font-size: 30px;
     font-family: "Calibri light";
@@ -98,6 +99,7 @@ font-size: 15px;
 position:fixed;
 width:18%;
 top: 220px;
+
   background-color:none;
   color: black;
   text-align: center;
@@ -118,7 +120,7 @@ top: 220px;
   text-align: center;
   position: fixed;
   top:0px;
-  left:38%;
+  left:43%;
 
 }
 #th1 {
@@ -137,7 +139,7 @@ border-width: thin;
   float:center;
   left:315px;
   top: 195px;
-  width:1255px;
+  width:74.6%;
   text-align: left;
 }
 #message {
