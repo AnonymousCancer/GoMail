@@ -11,16 +11,15 @@ body {
   color:white;
   font-family: "Calibri light";
   font-size: 40px;
-
 }
 #button {
   font-weight: bold;
   color:#b43004;
   background:white;
-border: none;
-padding:10px;
-font-family: "Calibri light";
-font-size: 15px;
+  border: none;
+  padding:10px;
+  font-family: "Calibri light";
+  font-size: 15px;
 }
 #button:hover{
   background: lightgrey;
@@ -28,11 +27,10 @@ font-size: 15px;
 #form1{
   font-family: "Calibri light";
   font-size: 20px;
-    padding: 10px;
-    font-weight:bold;
+  padding: 10px;
+  font-weight:bold;
 }
 #home{
-
     color: white;
     font-size: 30px;
     font-family: "Calibri light";
@@ -65,41 +63,37 @@ font-size: 15px;
   color: black;
 }
 #inbox {
-    color: white;
-    font-size: 24px;
-    font-family: "Calibri light";
-    padding: 10px;
-    border-bottom: solid white;
-    border-left: solid white;
-    border-right: solid white;
+  color: white;
+  font-size: 24px;
+  font-family: "Calibri light";
+  padding: 10px;
+  border-bottom: solid white;
+  border-left: solid white;
+  border-right: solid white;
 }
-
 #outbox {
-    color: white;
-    font-size: 24px;
-    font-family: "Calibri light";
-    padding: 10px;
-    border-bottom: solid white;
-    border-left: solid white;
-    border-right: solid white;
+  color: white;
+  font-size: 24px;
+  font-family: "Calibri light";
+  padding: 10px;
+  border-bottom: solid white;
+  border-left: solid white;
+  border-right: solid white;
 }
-
 #contact {
-    color: white;
-    font-size: 24px;
-    font-family: "Calibri light";
-    border-bottom: solid white;
-    border-left: solid white;
-      border-right: solid white;
-    padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-family: "Calibri light";
+  border-bottom: solid white;
+  border-left: solid white;
+  border-right: solid white;
+  padding: 10px;
 
 }
-
 #t00 {
-position:fixed;
-width:18%;
-top: 220px;
-
+  position:fixed;
+  width:18%;
+  top: 220px;
   background-color:none;
   color: black;
   text-align: center;
@@ -121,13 +115,11 @@ top: 220px;
   position: fixed;
   top:0px;
   left:43%;
-
 }
 #th1 {
-padding: 7px;
-border-style: groove;
-border-width: thin;
-
+  padding: 7px;
+  border-style: groove;
+  border-width: thin;
 }
 #mail {
   font-family: "Calibri light";
@@ -142,11 +134,19 @@ border-width: thin;
   width:74.6%;
   text-align: left;
 }
-#message {
-
+#cancer{
+  position : fixed;
+  top: 915px;
+  left: 1450px;
 }
-#date{
-
+#c1{
+  position : fixed;
+  top: 890px;
+  left: 289px;
+  width: 100%;
 }
-#msg{
+#c2{
+  position : fixed;
+  top: 915px;
+  left: 295px;
 }
