@@ -158,14 +158,14 @@ body {
   left: 295px;
 }
 /* sign in and sign up */
-#s0{
+#sig{
   position : fixed;
   color: white;
-  left: 1540px;
+  left: 1515px;
   top: 14px;
   background-color: black;
 }
-#s0:hover{
+#sig:hover{
   background-color: white;
   color: black;
 }
@@ -176,14 +176,39 @@ body {
   top: 14px;
   background-color: black;
 }
-#s2{
+#sup{
   position : fixed;
   color: white;
   left: 1600px;
   top: 14px;
   background-color: black;
 }
-#s2:hover{
+#sup:hover{
   background-color: white;
   color: black;
 }
+/*Javascript connextion et inscription*/
+#coxIns{
+  text-align: center;
+  font-size: 25px;
+}
+#adrr{
+  text-align: center;
+}
+#pass{
+  text-align: center;
+}
+#bu{
+  text-align: center;
+}
+#button2{
+  font-weight: bold;
+  color: white;
+  background: #003366;
+  border: solid;
+  padding:10px;
+  font-family: "Calibri light";
+  font-size: 15px;
+}
+#button2:hover{
+  background: lightgrey;
