@@ -3,9 +3,10 @@ body {
   padding: 3px;
   background-color: none;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 1810px;
   font-family: "Calibri light";
   font-weight: bold;
+  
 }
 /*GO!MAIL*/
 #cac {
@@ -28,7 +29,6 @@ body {
 #button:hover{
   background: lightgrey;
 }
-/*nouveau message*/
 #form1{
   font-family: "Calibri light";
   font-size: 20px;
@@ -36,22 +36,6 @@ body {
   font-weight:bold;
 }
 /*table du Menu*/
-#home{
-    color: white;
-    font-size: 30px;
-    font-family: "Calibri light";
-    padding: 10px;
-    border-bottom: solid white;
-  }
-#NewM {
-  color: white;
-  font-size: 24px;
-  font-family: "Calibri light";
-  padding: 10px;
-  border-bottom: solid white;
-  border-left: solid white;
-  border-right: solid white;
-}
 #NewM:hover {
   background: white;
   color: black;
@@ -68,32 +52,76 @@ body {
   background: white;
   color: black;
 }
-#inbox {
+/*table du Menu*/
+#home{
+    position: fixed;
+    top: 225px;
+    color: white;
+    font-size: 30px;
+    font-family: "Calibri light";
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 10px;
+    padding-top:10px;
+    border-bottom: solid white;
+  }
+  /*nouveau message*/
+#NewM {
+  position: fixed;
+  top: 285px;
   color: white;
   font-size: 24px;
   font-family: "Calibri light";
-  padding: 10px;
+  padding-left: 59px;
+  padding-right: 59px;
+  padding-bottom: 10px;
+  padding-top:10px;
+  border-bottom: solid white;
+  border-left: solid white;
+  border-right: solid white;
+}
+#inbox {
+  top: 335px;
+  position: fixed;
+  color: white;
+  font-size: 24px;
+  font-family: "Calibri light";
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-bottom: 10px;
+  padding-top:10px;
   border-bottom: solid white;
   border-left: solid white;
   border-right: solid white;
 }
 #outbox {
+  position: fixed;
+  top: 385px;
   color: white;
   font-size: 24px;
   font-family: "Calibri light";
-  padding: 10px;
+  padding-left: 111px;
+  padding-right: 111px;
+  padding-bottom: 10px;
+  padding-top:10px;
   border-bottom: solid white;
   border-left: solid white;
   border-right: solid white;
 }
 #contact {
+  position: fixed;
+  top: 435px;
   color: white;
   font-size: 24px;
   font-family: "Calibri light";
+  padding-left: 109px;
+  padding-right: 109px;
+  padding-bottom: 10px;
+  padding-top:10px;
   border-bottom: solid white;
   border-left: solid white;
   border-right: solid white;
-  padding: 10px;
+
 }
 #t00 {
   position:fixed;
@@ -144,24 +172,24 @@ body {
 #cancer{
   position : fixed;
   top: 915px;
-  left: 1450px;
+  left: 1460px;
 }
 #c1{
   position : fixed;
   top: 890px;
-  left: 289px;
+  left: 312px;
   width: 100%;
 }
 #c2{
   position : fixed;
   top: 915px;
-  left: 295px;
+  left: 312px;
 }
 /* sign in and sign up */
 #sig{
-  position : fixed;
+  position:absolute;
   color: white;
-  left: 1515px;
+  left: 1510px;
   top: 14px;
   background-color: black;
 }
