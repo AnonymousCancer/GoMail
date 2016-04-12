@@ -13,7 +13,7 @@ body{
   border: none;
   border-spacing: 0px;
   font-size: 18px;
-  position: absolute;
+  position: fixed;
   width:100%;
   text-align: center;
   margin-left: auto;
@@ -51,7 +51,7 @@ body{
   color: black;
   text-align: center;
   position: fixed;
-  top:0px;
+  top:0%;
   left:39%;
 }
 #PassWord{
@@ -59,4 +59,16 @@ body{
 }
 #AccountName{
   height: 20px;
+}
+#insc{
+  position:absolute;
+  text-align: right;
+  left: 55%;
+  width: 4.5%;
+
+  color: green;
+}
+#insc:hover{
+  background-color: #003366;
+  color: white;
 }

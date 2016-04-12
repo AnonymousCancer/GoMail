@@ -151,4 +151,4 @@ var etat = {
     "90221F212A4200001AA": {"name": "Bob"}
     } ]
 }
-window.history.forward();
+//window.history.forward();

@@ -171,25 +171,25 @@ body {
 /*Bas de la page (contact us)*/
 #cancer{
   position : fixed;
-  top: 915px;
-  left: 1460px;
+  top: 96%;
+  left: 85%;
 }
 #c1{
   position : fixed;
-  top: 890px;
-  left: 312px;
+  top: 94%;
+  left: 18.5%;
   width: 100%;
 }
 #c2{
   position : fixed;
-  top: 915px;
-  left: 312px;
+  top: 96%;
+  left: 20%;
 }
-/* sign in and sign up */
+/* déconnexion */
 #dec{
   position : fixed;
   color: white;
-  left: 1580px;
+  left: 92%;
   top: 14px;
   background-color: black;
 }
