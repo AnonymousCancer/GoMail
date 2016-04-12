@@ -6,11 +6,7 @@ body {
   background-size: 1810px;
   font-family: "Calibri light";
   font-weight: bold;
-<<<<<<< HEAD
   overflow: hidden;
-=======
-  
->>>>>>> origin/master
 }
 /*GO!MAIL*/
 #cac {
@@ -193,7 +189,7 @@ body {
 #sig{
   position:absolute;
   color: white;
-  left: 1510px;
+  left: 1515px;
   top: 14px;
   background-color: black;
 }

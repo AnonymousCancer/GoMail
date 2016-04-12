@@ -52,10 +52,10 @@ $(document).ready(function(){
     $("#mail").html("<tr id=\"allo1\"><td><form id='form1'>Send to : <input type=\"text\" id=\"ContactName\"></form><br><textarea placeholder=\"Entrez votre message\" rows=\"10\" cols=\"50\" id=\"messageInput\"></textarea><br><input type='button' name='submit' value='send' id=\"button\" onclick='retrieve(\"ContactName\", \"messageInput\")'></td></tr>");
   });
   $("#sig").click(function(){
-    $("#mail").html("<tr><td id=\"coxIns\">Connexion à Go!Mail<td></tr><tr><td id=\"adrr\"><br><form id='form2'><input  type=\"text\" placeholder=\"Adresse courriel\" id=\"AccountName\"></form></td></tr><tr><td id=\"pass\"><form id='form2'><input type=\"text\" placeholder=\"Mot de passe\" id=\"PassWord\"></form></td></tr><tr><td id=\"bu\"><br><input type='button' name='submit' value='Soumettre' id=\"button2\" onclick='retrieve(\"ContactName\", \"messageInput\")'></td></tr>");
+    $("#mail").html("<tr><td id=\"coxIns\">Connexion à Go!Mail<td></tr><tr><td id=\"adrr\"><br><form id='form2'><input  type=\"text\" placeholder=\"Adresse courriel\" id=\"AccountName\"></form></td></tr><tr><td id=\"pass\"><form id='form2'><input type=\"PassWord\" class=\"masked\" placeholder=\"Mot de passe\" id=\"PassWord\" autocomplete=\"off\"></form></td></tr><tr><td id=\"bu\"><br><input type='button' name='submit' value='Soumettre' id=\"button2\" onclick='retrieve(\"ContactName\", \"messageInput\")'></td></tr>");
   });
   $("#sup").click(function(){
-    $("#mail").html("<tr><td id=\"coxIns\">Inscription à Go!Mail<td></tr><tr><td id=\"adrr\"><br><form id='form3'><input type=\"text\" placeholder=\"Nouvelle adresse courriel\" id=\"AccountName\"></form></td></tr><tr><td id=\"pass\"><form id='form3'><input type=\"text\" placeholder=\"Nouveau mot de passe\" id=\"PassWord\"></form></td></tr><tr><td id=\"bu\"><br><input type='button' name='submit' value='Soumettre' id=\"button2\" onclick='retrieve(\"ContactName\", \"messageInput\")'></td></tr>");
+    $("#mail").html("<tr><td id=\"coxIns\">Inscription à Go!Mail<td></tr><tr><td id=\"adrr\"><br><form id='form3'><input type=\"text\" placeholder=\"Nouvelle adresse courriel\" id=\"AccountName\"></form></td></tr><tr><td id=\"pass\"><form id='form3'><input type=\"PassWord\" class=\"masked\" placeholder=\"Nouveau mot de passe\" id=\"PassWord\" autocomplete=\"off\"></form></td></tr><tr><td id=\"bu\"><br><input type='button' name='submit' value='Soumettre' id=\"button2\" onclick='retrieve(\"ContactName\", \"messageInput\")'></td></tr>");
   });
 });
 function retrieve(cont,msg) {
