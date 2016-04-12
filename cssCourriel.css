@@ -186,32 +186,14 @@ body {
   left: 312px;
 }
 /* sign in and sign up */
-#sig{
-  position:absolute;
-  color: white;
-  left: 1515px;
-  top: 14px;
-  background-color: black;
-}
-#sig:hover{
-  background-color: white;
-  color: black;
-}
-#s1{
+#dec{
   position : fixed;
   color: white;
-  left: 1588px;
+  left: 1580px;
   top: 14px;
   background-color: black;
 }
-#sup{
-  position : fixed;
-  color: white;
-  left: 1600px;
-  top: 14px;
-  background-color: black;
-}
-#sup:hover{
+#dec:hover{
   background-color: white;
   color: black;
 }
